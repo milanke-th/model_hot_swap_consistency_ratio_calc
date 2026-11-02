@@ -1,11 +1,11 @@
-# kgbuild_jd096
+# model_hot_swap_consistency_ratio_calc
 
 **算出知识图谱构建工程师·模型热切换的一致性里各项的占比与比值。**
 
-`kgbuild_jd096` —— 从输入中抽取数值，计算知识图谱构建工程师·模型热切换的一致性相关的比值与占比，分母为零时明确报错
+`model_hot_swap_consistency_ratio_calc` —— 从输入中抽取数值，计算知识图谱构建工程师·模型热切换的一致性相关的比值与占比，分母为零时明确报错
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`kgbuild_jd096.py` 拷走就能用
+- 单文件，`model_hot_swap_consistency_ratio_calc.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install milanke-th-kgbuild_jd096
+pip install milanke-th-model_hot_swap_consistency_ratio_calc
 ```
 
 装完直接用命令名调用：
 
 ```bash
-kgbuild_jd096 --help
+model_hot_swap_consistency_ratio_calc --help
 ```
 
-也可以不用安装，直接把 `kgbuild_jd096.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `model_hot_swap_consistency_ratio_calc.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ kgbuild_jd096 --help
 ## 用法
 
 ```bash
-python kgbuild_jd096.py --file input.txt
-python kgbuild_jd096.py --text "示例内容"
-python kgbuild_jd096.py --file input.txt --json
+python model_hot_swap_consistency_ratio_calc.py --file input.txt
+python model_hot_swap_consistency_ratio_calc.py --text "示例内容"
+python model_hot_swap_consistency_ratio_calc.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python kgbuild_jd096.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_kgbuild_jd096.py
+python test_model_hot_swap_consistency_ratio_calc.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_kgbuild_jd096.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/milanke-th/kgbuild_jd096>
+- GitHub 仓库：<https://github.com/milanke-th/model_hot_swap_consistency_ratio_calc>
 
 ---
 
@@ -79,7 +79,7 @@ python test_kgbuild_jd096.py
 milanke-th 做知识图谱构建工程师·模型热切换的一致性相关的问题，方向对标MiniMax的中级知识图谱构建工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://milanke-th.github.io>
-- 仓库：<https://github.com/milanke-th/kgbuild_jd096>
+- 仓库：<https://github.com/milanke-th/model_hot_swap_consistency_ratio_calc>
 
 ## 许可
 
